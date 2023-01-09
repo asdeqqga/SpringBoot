@@ -1,4 +1,4 @@
-package kr.co.vo;
+package kr.co.user.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,7 +12,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class User1VO {
-	
 	private String uid;
 	private String name;
 	private String hp;

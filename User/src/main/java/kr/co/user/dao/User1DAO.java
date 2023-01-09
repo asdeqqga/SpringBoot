@@ -1,4 +1,4 @@
-package kr.co.dao;
+package kr.co.user.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import kr.co.vo.User1VO;
+import kr.co.user.vo.User1VO;
 
 @Repository
 public class User1DAO {
@@ -19,7 +19,7 @@ public class User1DAO {
 	}
 	
 	public User1VO selectUser1(String uid) {
-		return mybatis.selectOne("user1.selectUser1",uid);
+		return mybatis.selectOne("user1.selectUser1", uid);
 	}
 	
 	public List<User1VO> selectUser1s() {
@@ -33,6 +33,4 @@ public class User1DAO {
 	public void deleteUser1(String uid) {
 		mybatis.delete("user1.deleteUser1", uid);
 	}
-	
 }
-
