@@ -46,7 +46,7 @@
 		<tr th:each="user:${users}">
 			<td>[[${user.uid}]]</td>
 			<td>[[${user.name}]]</td>
-			<td th:text="${user.hp}"></td>
+			<td th:text="${user.hp}">휴대폰</td>
 			<td th:text="${user.age}">나이</td>
 		</tr>
 	</table>
