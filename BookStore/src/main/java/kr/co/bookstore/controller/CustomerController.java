@@ -48,13 +48,13 @@ public class CustomerController {
 	@PostMapping("/customer/modify")
 	public String modify(CustomerVO vo) {
 		service.updateCustomer(vo);
-		return "/redirect:/customer/list";
+		return "redirect:/customer/list";
 	}
 	
 	@GetMapping("/customer/delete")
 	public String delete(String custId) {
 		service.deleteCustomer(custId);
-		return "/redirect:/customer/list";
+		return "redirect:/customer/list";
 	}
 	
 }
