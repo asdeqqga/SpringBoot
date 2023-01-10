@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<h3>도서 수정</h3>
-		<a href="@{/}">메인</a>
-		<a href="@{/book/list}">도서 목록</a>
+		<a th:href="@{/}">메인</a>
+		<a th:href="@{/book/list}">도서 목록</a>
 		
 		<form th:action="@{/book/modify}" method="post">
 			<table border="1">

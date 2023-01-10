@@ -19,7 +19,7 @@ public class CustomerDAO {
 	}
 	
 	public CustomerVO selectCustomer(String custId) {
-		return mybatis.selectOne("customer.selectBook", custId);
+		return mybatis.selectOne("customer.selectCustomer", custId);
 	}
 	
 	public List<CustomerVO> selectCustomers() {

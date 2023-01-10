@@ -7,7 +7,7 @@
 		INSERT INTO `customer` (`name`, `address`, `phone`)VALUES (#{name}, #{address}, #{phone});
 	</insert>
 	<select id="selectCustomer" resultType="kr.co.bookstore.vo.CustomerVO">
-		SELECT * FROM `customer` WHERE `customerId`=#{custId};
+		SELECT * FROM `customer` WHERE `custId`=#{custId};
 	</select>
 	<select id="selectCustomers" resultType="kr.co.bookstore.vo.CustomerVO">
 		SELECT * FROM `customer`;
@@ -20,6 +20,6 @@
 		WHERE `custId`=#{custId};
 	</update>
 	<delete id="deleteCustomer">
-		DELETE FROM `customer` WHERE `customer`=#{custId};
+		DELETE FROM `customer` WHERE `custId`=#{custId};
 	</delete>
 </mapper>
