@@ -2,14 +2,14 @@
 <html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta charset="UTF-8">
-		<title>user2::register</title>
+		<title>user1::register</title>
 	</head>
 	<body>
-		<h3>user2 등록</h3>
-		<a th:href="@{/index}">메인</a>
-		<a th:href="@{/user2/list}">user2 목록</a>
+		<h3>user1 등록</h3>
+		<a th:href="@{../index}">메인</a>
+		<a th:href="@{./list}">user1 목록</a>
 		
-		<form th:action="@{/user2/register}" th:object="${user}" method="post">
+		<form th:action="@{/user1/register}" th:object="${user}" method="post">
 			<table border="1">
 				<tr>
 					<td>아이디</td>

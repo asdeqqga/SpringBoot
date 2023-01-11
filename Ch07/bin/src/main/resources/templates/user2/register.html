@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<h3>user2 등록</h3>
-		<a th:href="@{/index}">메인</a>
-		<a th:href="@{/user2/list}">user2 목록</a>
+		<a th:href="@{../index}">메인</a>
+		<a th:href="@{./list}">user2 목록</a>
 		
 		<form th:action="@{/user2/register}" th:object="${user}" method="post">
 			<table border="1">
