@@ -7,9 +7,9 @@
 	<body>
 		<h3>user3 수정</h3>
 		<a th:href="@{/Ch07}">메인</a>
-		<a th:href="@{/Ch07/user3/list}">user3 목록</a>
+		<a th:href="@{/user3/list}">user3 목록</a>
 		
-		<form th:action="@{Ch07/user3/modify}" th:object="${user}" method="post">
+		<form th:action="@{/user3/modify}" th:object="${user}" method="post">
 			<table border="1">
 				<tr>
 					<td>아이디</td>
