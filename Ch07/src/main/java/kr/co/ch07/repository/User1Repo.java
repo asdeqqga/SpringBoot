@@ -47,4 +47,4 @@ public interface User1Repo extends JpaRepository<User1VO, String>{
 	public List<User1VO> selectUserByNameWithParam(@Param("name") String name);
 	
 }
-
+	
