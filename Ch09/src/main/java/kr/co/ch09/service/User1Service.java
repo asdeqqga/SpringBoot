@@ -23,10 +23,10 @@ public class User1Service {
 	public List<User1VO> selectUser1s() {
 		return dao.selectUser1s();
 	}
-	public void updateUser1(User1VO vo) {
-		dao.updateUser1(vo);
+	public int updateUser1(User1VO vo) {
+		return dao.updateUser1(vo);
 	}
-	public void deleteUser1(String uid) {
-		dao.deleteUser1(uid);
+	public int deleteUser1(String uid) {
+		return dao.deleteUser1(uid);
 	}
 }

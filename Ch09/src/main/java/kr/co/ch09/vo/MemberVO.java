@@ -23,7 +23,7 @@ public class MemberVO {
 	private String pos;
 	private int dep;
 	
-	@Column(name="rdate", updatable = false)
+	@Column(updatable = false)
 	@CreationTimestamp
-	private LocalDateTime rdate;
+	private LocalDateTime rdate; 
 }

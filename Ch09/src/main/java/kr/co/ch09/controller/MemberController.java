@@ -22,46 +22,30 @@ public class MemberController {
 	
 	@Autowired
 	private MemberService service;
-	
+
 	@GetMapping("/member")
 	public List<MemberVO> list1() {
-		List<MemberVO> users = service.selectMembers();
-		return users;
+		return service.selectMembers();
 	}
-	@GetMapping("/member/{id}")
-	public MemberVO list2(@PathVariable("id") String uid) {
+	
+	@GetMapping("/member/{uid}")
+	public MemberVO list2(@PathVariable("uid") String uid) {
 		return service.selectMember(uid);
 	}
 	
 	@PostMapping("/member")
-	public Map<String, Integer> register(MemberVO vo) {
-		int result = service.insertMember(vo);
-		
-		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", 1);
-		
-		return resultMap;
+	public void register(MemberVO vo) {
+		service.insertMember(vo);
+		System.out.println("register...");
 	}
 	
 	@PutMapping("/member")
-	public Map<String, Integer> modify(MemberVO vo) {
-		
+	public void modify(MemberVO vo) {
 		service.updateMember(vo);
-		
-		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", 1);
-		
-		return resultMap;
 	}
 	
-	@DeleteMapping("/member/{id}")
-	public Map<String, Integer> delete(@PathVariable("id") String uid) {
-		
+	@DeleteMapping("/member/{uid}")
+	public void delete(@PathVariable("uid") String uid) {
 		service.deleteMember(uid);
-		
-		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", 1);
-		
-		return resultMap;
 	}
 }
