@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	$('.member.list2').click(function(){
 		
-		let uid = 's101';
+		let uid = 't101';
 		
 		$.ajax({
 			url: '/Ch09/member/'+uid,
@@ -34,9 +34,9 @@ $(document).ready(function(){
 	$('.member.register').click(function(){
 		
 		let jsonData = {
-			"uid": "s101",
+			"uid": "t101",
 			"name": "홍길동",
-			"hp": "010-1234-1101",
+			"hp": "010-9999-9999",
 			"pos": "사원",
 			"dep": 101
 		};
@@ -56,9 +56,9 @@ $(document).ready(function(){
 	$('.member.modify').click(function(){
 		
 		let jsonData = {
-			"uid": "s101",
+			"uid": "t101",
 			"name": "홍길동",
-			"hp": "010-1234-2202",
+			"hp": "010-3333-3333",
 			"pos": "주임",
 			"dep": 102
 		};
@@ -76,7 +76,7 @@ $(document).ready(function(){
 	});
 	
 	$('.member.delete').click(function(){
-		let uid = 's101';
+		let uid = 't101';
 		
 		$.ajax({
 			url: '/Ch09/member/'+uid,

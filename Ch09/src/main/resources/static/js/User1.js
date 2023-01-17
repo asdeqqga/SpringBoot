@@ -34,10 +34,10 @@ $(document).ready(function(){
 	$('.user1.register').click(function(){
 		
 		let jsonData = {
-			"uid": "s101",
+			"uid": "t101",
 			"name": "홍길동",
-			"hp": "010-1234-1101",
-			"age": 19
+			"hp": "010-9999-9999",
+			"age": 22
 		};
 		
 		$.ajax({
@@ -55,9 +55,9 @@ $(document).ready(function(){
 	$('.user1.modify').click(function(){
 		
 		let jsonData = {
-				"uid": "s101",
+				"uid": "t101",
 				"name": "홍길동",
-				"hp": "010-1234-2220",
+				"hp": "010-3333-2222",
 				"age": 29
 			};
 			
@@ -74,7 +74,7 @@ $(document).ready(function(){
 	});
 	
 	$('.user1.delete').click(function(){
-		let uid = 's101';
+		let uid = 't101';
 		
 		$.ajax({
 			url: '/Ch09/user1/'+uid,
