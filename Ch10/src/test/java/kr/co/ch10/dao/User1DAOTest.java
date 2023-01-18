@@ -14,6 +14,7 @@ public class User1DAOTest {
 	@Autowired
 	private User1DAO dao;
 	
+	@Autowired
 	public void insert() {
 		User1VO user = new User1VO();
 		user.setUid("t101");
