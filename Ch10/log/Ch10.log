@@ -1,0 +1,30 @@
+2023-01-18 13:58:01.986  INFO 8564 --- [main] k.co.ch10.controller.MainControllerTest  : Starting MainControllerTest using Java 17.0.5 on 1004- with PID 8564 (started by java2 in C:\Users\java2\Desktop\workspace\SpringBoot\Ch10)
+2023-01-18 13:58:01.991 DEBUG 8564 --- [main] k.co.ch10.controller.MainControllerTest  : Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-01-18 13:58:01.991  INFO 8564 --- [main] k.co.ch10.controller.MainControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2023-01-18 13:58:02.703  INFO 8564 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-01-18 13:58:02.911  INFO 8564 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-18 13:58:02.912  INFO 8564 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-18 13:58:02.913  INFO 8564 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-01-18 13:58:02.940  INFO 8564 --- [main] k.co.ch10.controller.MainControllerTest  : Started MainControllerTest in 1.264 seconds (JVM running for 1.982)
+2023-01-18 13:58:03.275 DEBUG 8564 --- [main] kr.co.ch10.controller.MainController     : index log debug...
+2023-01-18 13:58:03.275  INFO 8564 --- [main] kr.co.ch10.controller.MainController     : index log info...
+2023-01-18 13:58:03.275  WARN 8564 --- [main] kr.co.ch10.controller.MainController     : index log warn...
+2023-01-18 13:58:03.275 ERROR 8564 --- [main] kr.co.ch10.controller.MainController     : index log error...
+2023-01-18 13:58:15.790  INFO 8900 --- [main] kr.co.ch10.dao.User1DAOTest              : Starting User1DAOTest using Java 17.0.5 on 1004- with PID 8900 (started by java2 in C:\Users\java2\Desktop\workspace\SpringBoot\Ch10)
+2023-01-18 13:58:15.792  INFO 8900 --- [main] kr.co.ch10.dao.User1DAOTest              : No active profile set, falling back to 1 default profile: "default"
+2023-01-18 13:58:16.338  INFO 8900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-18 13:58:16.353  INFO 8900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-01-18 13:58:16.833  INFO 8900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-18 13:58:16.879  INFO 8900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-18 13:58:17.011  INFO 8900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-18 13:58:17.126  INFO 8900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-18 13:58:17.404  INFO 8900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-18 13:58:17.416  INFO 8900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-01-18 13:58:17.930  INFO 8900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-18 13:58:17.939  INFO 8900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-18 13:58:18.138  WARN 8900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-18 13:58:18.360  INFO 8900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-01-18 13:58:18.917  INFO 8900 --- [main] kr.co.ch10.dao.User1DAOTest              : Started User1DAOTest in 3.449 seconds (JVM running for 4.244)
+2023-01-18 13:58:19.130  INFO 8900 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-18 13:58:19.132  INFO 8900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-18 13:58:19.141  INFO 8900 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
