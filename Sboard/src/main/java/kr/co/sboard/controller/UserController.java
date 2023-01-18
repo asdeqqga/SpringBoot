@@ -38,11 +38,10 @@ public class UserController {
 	@PostMapping("user/register")
 	public String register(UserVO vo, HttpServletRequest req) {
 		
-		String regip = req.getRemoteAddr();
-		vo.setRegip(regip);
+		vo.setRegip(req.getRemoteAddr());
 		int result = service.insertUser(vo);
 		
-		return "redirect:user/login?success="+result;
+		return "redirect:/user/login?success="+result;
 	}
 	
 	@GetMapping("user/terms")
