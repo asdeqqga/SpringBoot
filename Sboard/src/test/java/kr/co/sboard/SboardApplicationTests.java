@@ -54,6 +54,7 @@ class SboardApplicationTests {
 		
 		log.info("result : " + result);
 		
+		
 	}
 	
 	
