@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 public class UserController {
-	
+
 	@Autowired
 	private UserService service;
 	
@@ -37,30 +37,26 @@ public class UserController {
 	
 	@PostMapping("user/register")
 	public String register(UserVO vo, HttpServletRequest req) {
-		
 		vo.setRegip(req.getRemoteAddr());
+		log.info(vo.toString());
 		int result = service.insertUser(vo);
-		
 		return "redirect:/user/login?success="+result;
 	}
 	
 	@GetMapping("user/terms")
 	public String terms(Model model) {
 		TermsVO vo = service.selectTerms();
-		model.addAttribute(vo);
+		model.addAttribute(vo);		
 		return "user/terms";
 	}
 	
 	@ResponseBody
 	@GetMapping("user/checkUid")
 	public Map<String, Integer> checkUid(@RequestParam("uid") String uid) {
-		
 		log.info("uid : " + uid);
 		int result = service.countByUid(uid);
-		
 		Map<String, Integer> resultMap = new HashMap<>();
 		resultMap.put("result", result);
-		
 		return resultMap;
 	}
 	

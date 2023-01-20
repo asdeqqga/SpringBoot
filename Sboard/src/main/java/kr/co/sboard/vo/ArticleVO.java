@@ -16,6 +16,7 @@ import lombok.ToString;
 @ToString
 @Builder
 public class ArticleVO {
+	
 	private int no;
 	private int parent;
 	private int comment;
@@ -29,10 +30,13 @@ public class ArticleVO {
 	private String regip;
 	private String rdate;
 	
-	// 추가필드
-	private String nick;
-	
 	public String getRdate() {
 		return rdate.substring(2, 10);
 	}
+	
+	// 추가필드
+	private String nick;
+	private FileVO fileVO;
+	
+
 }

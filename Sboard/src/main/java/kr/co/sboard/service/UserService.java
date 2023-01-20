@@ -32,6 +32,7 @@ public class UserService {
 	public UserVO selectUser(String uid) {
 		return dao.selectUser(uid);
 	}
+	
 	public List<UserVO> selectUsers() {
 		return dao.selectUsers();
 	}
@@ -43,6 +44,7 @@ public class UserService {
 	public int updateUser(UserVO vo) {
 		return dao.updateUser(vo);
 	}
+	
 	public int deleteUser(String uid) {
 		return dao.deleteUser(uid);
 	}

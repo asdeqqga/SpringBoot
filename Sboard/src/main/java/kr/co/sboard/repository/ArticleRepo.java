@@ -5,5 +5,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import kr.co.sboard.entity.ArticleEntity;
 
 public interface ArticleRepo extends JpaRepository<ArticleEntity, Integer> {
-
 }

@@ -17,5 +17,4 @@ public interface UserDAO {
 	public TermsVO selectTerms();
 	public int updateUser(UserVO vo);
 	public int deleteUser(String uid);
-	
 }
