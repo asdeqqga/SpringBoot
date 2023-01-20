@@ -1,125 +1,228 @@
-2023-01-20 19:36:40.853 DEBUG 2932 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:36:40.856 DEBUG 2932 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62569,localport=62148]
-2023-01-20 19:36:40.856 DEBUG 2932 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62569,localport=62148]
-2023-01-20 19:36:57.993 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:36:57.994 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:37:10.976 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: accepted socket from [127.0.0.1:62595]
-2023-01-20 19:37:10.976 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:37:10.977 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:37:25.978 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:37:25.978 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62595,localport=62148]
-2023-01-20 19:37:25.978 DEBUG 2932 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62595,localport=62148]
-2023-01-20 19:37:27.903 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211047903 sessioncount 0
-2023-01-20 19:37:27.903 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:37:28.008 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:37:28.008 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:37:58.012 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:37:58.012 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:38:10.980 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: accepted socket from [127.0.0.1:62597]
-2023-01-20 19:38:10.981 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:38:10.981 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:38:25.982 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:38:25.982 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62597,localport=62148]
-2023-01-20 19:38:25.982 DEBUG 2932 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62597,localport=62148]
-2023-01-20 19:38:27.946 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211107946 sessioncount 0
-2023-01-20 19:38:27.946 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:38:28.021 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:38:28.021 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:38:58.026 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:38:58.026 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:39:10.983 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: accepted socket from [127.0.0.1:62608]
-2023-01-20 19:39:10.983 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:39:10.984 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:39:25.986 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:39:25.986 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62608,localport=62148]
-2023-01-20 19:39:25.986 DEBUG 2932 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62608,localport=62148]
-2023-01-20 19:39:27.995 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211167995 sessioncount 0
-2023-01-20 19:39:27.995 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:39:28.040 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:39:28.040 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:39:58.042 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:39:58.042 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:40:10.985 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: accepted socket from [127.0.0.1:62613]
-2023-01-20 19:40:10.986 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:40:10.986 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:40:25.989 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:40:25.989 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62613,localport=62148]
-2023-01-20 19:40:25.989 DEBUG 2932 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62613,localport=62148]
-2023-01-20 19:40:28.052 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:40:28.052 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211228052 sessioncount 0
-2023-01-20 19:40:28.052 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:40:28.052 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:40:58.062 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:40:58.062 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:41:10.848 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: accepted socket from [127.0.0.1:62620]
-2023-01-20 19:41:10.849 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:41:10.849 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(47)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:41:10.849 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(47)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:41:10.850 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(47)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:41:10.850 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(47)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:41:10.850 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(47)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:41:10.988 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62148) op = 82
-2023-01-20 19:41:10.988 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:41:10.988 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:41:28.076 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:41:28.076 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:41:28.106 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211288106 sessioncount 0
-2023-01-20 19:41:28.106 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:41:40.853 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:41:40.853 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62620,localport=62148]
-2023-01-20 19:41:40.853 DEBUG 2932 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62620,localport=62148]
-2023-01-20 19:41:58.086 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:41:58.086 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:42:10.990 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: accepted socket from [127.0.0.1:62624]
-2023-01-20 19:42:10.990 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:42:10.991 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:42:25.991 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:42:25.991 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62624,localport=62148]
-2023-01-20 19:42:25.991 DEBUG 2932 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62624,localport=62148]
-2023-01-20 19:42:28.093 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:42:28.093 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:42:28.154 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211348154 sessioncount 0
-2023-01-20 19:42:28.154 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:42:58.108 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:42:58.108 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: accepted socket from [127.0.0.1:62645]
-2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62645,localport=62148]
-2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62645,localport=62148]
-2023-01-20 19:43:28.120 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:43:28.120 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:43:28.176 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211408176 sessioncount 0
-2023-01-20 19:43:28.176 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:43:58.121 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:43:58.121 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:44:10.998 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: accepted socket from [127.0.0.1:62673]
-2023-01-20 19:44:10.999 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:44:10.999 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62673,localport=62148]
-2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62673,localport=62148]
-2023-01-20 19:44:28.124 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:44:28.124 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:44:28.199 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211468199 sessioncount 0
-2023-01-20 19:44:28.199 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:44:58.134 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:44:58.134 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:45:11.000 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(51)-127.0.0.1: accepted socket from [127.0.0.1:62693]
-2023-01-20 19:45:11.001 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(51)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:45:11.001 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
-2023-01-20 19:45:26.002 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(51)-127.0.0.1: (port 62148) connection closed
-2023-01-20 19:45:26.002 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(51)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62693,localport=62148]
-2023-01-20 19:45:26.002 DEBUG 2932 --- [RMI TCP Connection(51)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(51)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62693,localport=62148]
-2023-01-20 19:45:28.137 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:45:28.137 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:45:28.243 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211528243 sessioncount 0
-2023-01-20 19:45:28.243 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-01-20 19:45:58.139 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-01-20 19:45:58.139 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
-2023-01-20 19:46:10.849 DEBUG 2932 --- [RMI TCP Connection(52)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(52)-127.0.0.1: accepted socket from [127.0.0.1:62711]
-2023-01-20 19:46:10.850 DEBUG 2932 --- [RMI TCP Connection(52)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(52)-127.0.0.1: (port 62148) op = 80
-2023-01-20 19:46:10.850 DEBUG 2932 --- [RMI TCP Connection(52)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(52)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:46:10.850 DEBUG 2932 --- [RMI TCP Connection(52)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(52)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
-2023-01-20 19:46:10.850 DEBUG 2932 --- [RMI TCP Connection(52)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(52)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@677c10ba
+2023-01-21 00:00:01.283 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:00:01.285 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:00:13.752 DEBUG 68664 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: (port 6351) connection closed
+2023-01-21 00:00:13.752 DEBUG 68664 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=7098,localport=6351]
+2023-01-21 00:00:13.752 DEBUG 68664 --- [RMI TCP Connection(16)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(16)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=7098,localport=6351]
+2023-01-21 00:00:31.292 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:00:31.292 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:00:31.307 DEBUG 68664 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674226831307 sessioncount 1
+2023-01-21 00:00:31.307 DEBUG 68664 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-21 00:00:58.674 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: accepted socket from [127.0.0.1:7175]
+2023-01-21 00:00:58.674 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: (port 6351) op = 80
+2023-01-21 00:00:58.674 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(17)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@413e9320
+2023-01-21 00:00:58.674 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(17)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@413e9320
+2023-01-21 00:00:58.674 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(17)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@413e9320
+2023-01-21 00:00:58.675 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(17)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@413e9320
+2023-01-21 00:00:58.675 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(17)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@413e9320
+2023-01-21 00:00:58.764 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: (port 6351) op = 82
+2023-01-21 00:00:58.764 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: (port 6351) op = 80
+2023-01-21 00:00:58.764 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-21 00:01:01.299 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:01:01.299 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:01:28.679 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: (port 6351) connection closed
+2023-01-21 00:01:28.679 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=7175,localport=6351]
+2023-01-21 00:01:28.679 DEBUG 68664 --- [RMI TCP Connection(17)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(17)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=7175,localport=6351]
+2023-01-21 00:01:31.305 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:01:31.305 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:01:31.350 DEBUG 68664 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674226891350 sessioncount 1
+2023-01-21 00:01:31.350 DEBUG 68664 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-21 00:01:58.781 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(18)-127.0.0.1: accepted socket from [127.0.0.1:7230]
+2023-01-21 00:01:58.781 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(18)-127.0.0.1: (port 6351) op = 80
+2023-01-21 00:01:58.782 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-21 00:02:01.315 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:02:01.315 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:02:13.797 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(18)-127.0.0.1: (port 6351) connection closed
+2023-01-21 00:02:13.797 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(18)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=7230,localport=6351]
+2023-01-21 00:02:13.797 DEBUG 68664 --- [RMI TCP Connection(18)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(18)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=7230,localport=6351]
+2023-01-21 00:02:31.322 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:02:31.322 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:02:31.397 DEBUG 68664 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674226951397 sessioncount 1
+2023-01-21 00:02:31.397 DEBUG 68664 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-21 00:02:43.050 DEBUG 68664 --- [http-nio-8181-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8181-Acceptor] latch=1
+2023-01-21 00:02:43.050 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [703]
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8181-Acceptor] latch=2
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read from buffer: [0]
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read direct from socket: [838]
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received [GET /Sboard/user/login?success=200 HTTP/1.1
+Host: localhost:8181
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8181/Sboard/list
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+
+]
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.catalina.connector.CoyoteAdapter     :  Requested cookie session id is C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.051 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /Sboard/user/login
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.http.Parameters   : Decoding query null UTF-8
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.http.Parameters   : Start processing with input [success=200]
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/Sboard/user/login?success=200", parameters={masked}
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to kr.co.sboard.controller.UserController#login()
+2023-01-21 00:02:43.052 DEBUG 68664 --- [http-nio-8181-exec-8] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.053 DEBUG 68664 --- [http-nio-8181-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2023-01-21 00:02:43.053 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       : getResource(templates/user/login.html)
+2023-01-21 00:02:43.053 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       :   Delegating to parent classloader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6c57cf2a
+2023-01-21 00:02:43.053 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       :   --> Returning 'file:/C:/Users/LA%20SEOUNG%20JUN/Desktop/workspace/SpringBoot/Sboard/target/classes/templates/user/login.html'
+2023-01-21 00:02:43.054 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       : getResourceAsStream(templates/user/login.html)
+2023-01-21 00:02:43.054 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       :   Delegating to parent classloader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6c57cf2a
+2023-01-21 00:02:43.054 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.c.loader.WebappClassLoaderBase       :   --> Returning stream from parent
+2023-01-21 00:02:43.055 DEBUG 68664 --- [http-nio-8181-exec-8] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.078 DEBUG 68664 --- [http-nio-8181-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [838]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read from buffer: [0]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [703]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read direct from socket: [0]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]], Read from buffer: [0]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Status in: [OPEN_READ], State out: [OPEN]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]], Read direct from socket: [650]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received [GET /Sboard/css/style.css HTTP/1.1
+Host: localhost:8181
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:8181/Sboard/user/login?success=200
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+
+]
+2023-01-21 00:02:43.079 DEBUG 68664 --- [http-nio-8181-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8181-Acceptor] latch=3
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8181-Acceptor] latch=4
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.catalina.connector.CoyoteAdapter     :  Requested cookie session id is C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /Sboard/css/style.css
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [838]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-9] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [650]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read from buffer: [0]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]], Read from buffer: [0]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read direct from socket: [703]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]], Read direct from socket: [703]
+2023-01-21 00:02:43.080 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received [GET /Sboard/img/login_ico_id.png HTTP/1.1
+Host: localhost:8181
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8181/Sboard/user/login?success=200
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+
+]
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received [GET /Sboard/img/login_ico_pw.png HTTP/1.1
+Host: localhost:8181
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8181/Sboard/user/login?success=200
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+
+]
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-9] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.t.util.http.Rfc6265CookieProcessor   : Cookies: Parsing b[]: JSESSIONID=C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.catalina.connector.CoyoteAdapter     :  Requested cookie session id is C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/Sboard/css/style.css", parameters={}
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.catalina.connector.CoyoteAdapter     :  Requested cookie session id is C1EDDBFF64622E5CB128A4B0FFB6116A
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /Sboard/img/login_ico_id.png
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /Sboard/img/login_ico_pw.png
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-9] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.081 DEBUG 68664 --- [http-nio-8181-exec-10] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/Sboard/img/login_ico_id.png", parameters={}
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-2] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/Sboard/img/login_ico_pw.png", parameters={}
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-10] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.082 DEBUG 68664 --- [http-nio-8181-exec-2] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-10] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [650]
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]], Read from buffer: [0]
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [703]
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]], Read direct from socket: [0]
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-2] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read from buffer: [0]
+2023-01-21 00:02:43.083 DEBUG 68664 --- [http-nio-8181-exec-9] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Read direct from socket: [0]
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-9] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]], Status in: [OPEN_READ], State out: [OPEN]
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-10] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-9] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]]
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-10] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]], Status in: [OPEN_READ], State out: [OPEN]
+2023-01-21 00:02:43.084 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.coyote.http11.Http11InputBuffer      : Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [703]
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-10] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]]
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]], Read from buffer: [0]
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]], Read direct from socket: [0]
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-2] o.a.coyote.http11.Http11InputBuffer      : Received []
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-2] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]], Status in: [OPEN_READ], State out: [OPEN]
+2023-01-21 00:02:43.085 DEBUG 68664 --- [http-nio-8181-exec-2] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]]
+2023-01-21 00:02:58.798 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(19)-127.0.0.1: accepted socket from [127.0.0.1:7281]
+2023-01-21 00:02:58.798 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(19)-127.0.0.1: (port 6351) op = 80
+2023-01-21 00:02:58.799 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-21 00:03:01.332 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:03:01.332 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:03:13.814 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(19)-127.0.0.1: (port 6351) connection closed
+2023-01-21 00:03:13.814 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(19)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=7281,localport=6351]
+2023-01-21 00:03:13.814 DEBUG 68664 --- [RMI TCP Connection(19)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(19)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=7281,localport=6351]
+2023-01-21 00:03:31.336 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-21 00:03:31.336 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Fill pool skipped, pool is at sufficient level.
+2023-01-21 00:03:31.441 DEBUG 68664 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674227011441 sessioncount 1
+2023-01-21 00:03:31.441 DEBUG 68664 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-5] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8181-exec-5] latch=2
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-3] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8181-exec-3] latch=4
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-1] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8181-exec-1] latch=3
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-7] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8181-exec-7] latch=1
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@5c3abe03].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e0b021:org.apache.tomcat.util.net.NioChannel@4da6f6ac:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7270]])
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@5c3abe03].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49b20d51:org.apache.tomcat.util.net.NioChannel@5684e58e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7268]])
+2023-01-21 00:03:43.400 DEBUG 68664 --- [http-nio-8181-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@5c3abe03].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5be47a40:org.apache.tomcat.util.net.NioChannel@7c7c779e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7269]])
+2023-01-21 00:03:43.401 DEBUG 68664 --- [http-nio-8181-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@5c3abe03].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@71b6747c:org.apache.tomcat.util.net.NioChannel@3c19737e:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8181 remote=/[0:0:0:0:0:0:0:1]:7271]])
+2023-01-21 00:03:58.813 DEBUG 68664 --- [RMI TCP Connection(20)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(20)-127.0.0.1: accepted socket from [127.0.0.1:7327]
+2023-01-21 00:03:58.813 DEBUG 68664 --- [RMI TCP Connection(20)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(20)-127.0.0.1: (port 6351) op = 80
+2023-01-21 00:03:58.813 DEBUG 68664 --- [RMI TCP Connection(20)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-21 00:04:01.347 DEBUG 68664 --- [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0)
