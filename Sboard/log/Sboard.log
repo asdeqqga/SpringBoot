@@ -79,3 +79,27 @@
 2023-01-20 19:42:28.093 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2023-01-20 19:42:28.093 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
 2023-01-20 19:42:28.154 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211348154 sessioncount 0
+2023-01-20 19:42:28.154 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-20 19:42:58.108 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-20 19:42:58.108 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
+2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: accepted socket from [127.0.0.1:62645]
+2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62148) op = 80
+2023-01-20 19:43:10.994 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62148) connection closed
+2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62645,localport=62148]
+2023-01-20 19:43:25.996 DEBUG 2932 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62645,localport=62148]
+2023-01-20 19:43:28.120 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-20 19:43:28.120 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
+2023-01-20 19:43:28.176 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211408176 sessioncount 0
+2023-01-20 19:43:28.176 DEBUG 2932 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-01-20 19:43:58.121 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-20 19:43:58.121 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
+2023-01-20 19:44:10.998 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: accepted socket from [127.0.0.1:62673]
+2023-01-20 19:44:10.999 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: (port 62148) op = 80
+2023-01-20 19:44:10.999 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: (port 62148) connection closed
+2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=62673,localport=62148]
+2023-01-20 19:44:26.000 DEBUG 2932 --- [RMI TCP Connection(50)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(50)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=62673,localport=62148]
+2023-01-20 19:44:28.124 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-20 19:44:28.124 DEBUG 2932 --- [HikariPool-16 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Fill pool skipped, pool is at sufficient level.
+2023-01-20 19:44:28.199 DEBUG 2932 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674211468199 sessioncount 0
