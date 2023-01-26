@@ -9,10 +9,8 @@ public class BoardController {
 
     @GetMapping("board/list")
     public String list(Model model, String group, String cate){
-
         model.addAttribute("group", group);
         model.addAttribute("cate", cate);
-
         return "board/list";
     }
 
