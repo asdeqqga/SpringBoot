@@ -5,5 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepo extends JpaRepository<UserEntity,String> {
 
-    public int countByUid(String uid);
+    public int countUserEntityByUid(String uid);
+    public int countUserEntityByNick(String nick);
+    public int countUserEntityByEmail(String email);
+    public int countUserEntityByHp(String hp);
 }

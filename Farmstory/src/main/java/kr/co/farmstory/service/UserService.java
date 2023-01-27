@@ -47,9 +47,20 @@ public class UserService {
         return dao.deleteUser(uid);
     }
 
-    public int conutByUid(String uid) {
-        return repo.countByUid(uid);
+    public int countByUid(String uid) {
+        return repo.countUserEntityByUid(uid);
     }
 
+    public int countByNick(String nick) {
+        return repo.countUserEntityByNick(nick);
+    }
+
+    public int countByEmail(String email) {
+        return repo.countUserEntityByEmail(email);
+    }
+
+    public int countByHp(String hp) {
+        return repo.countUserEntityByHp(hp);
+    }
 
 }

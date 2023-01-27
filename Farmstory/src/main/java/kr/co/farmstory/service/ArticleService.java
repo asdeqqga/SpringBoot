@@ -45,8 +45,8 @@ public class ArticleService {
         return dao.selectArticle(no);
     }
 
-    public List<ArticleVO> selectArticles(int start) {
-        return dao.selectArticles(start);
+    public List<ArticleVO> selectArticles(String cate) {
+        return dao.selectArticles(cate);
     }
 
     public int updateArticle(ArticleVO vo) {

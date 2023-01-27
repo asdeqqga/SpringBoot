@@ -16,44 +16,44 @@
 			</if>
 			`uid`=#{uid},
 			`regip`=#{regip},
-			`rdate`= NOW();	
+			`rdate`= NOW();
 	</insert>
-	
+
 	<insert id="insertFile">
 		insert into `board_file` set
 			`parent`=#{parent},
 			`newName`=#{newName},
 			`oriName`=#{oriName};
 	</insert>
-	
+
 	<select id="selectFile" resultType="kr.co.farmstory.vo.FileVO">
 		select * from `board_file` where `fno`=#{fno};
 	</select>
-	
+
 	<update id="updateDownload">
 		update `board_file` set `download` = `download` + 1 where `fno`=#{fno};
 	</update>
-	
+
 	<select id="selectArticles" resultType="kr.co.farmstory.vo.ArticleVO">
 		select a.*, b.`nick` from `board_article` as a
 		join `board_user` as b
-		on a.uid = b.uid 
+		on a.uid = b.uid
 		where `parent`=0 and `cate`=#{cate}
 		order by `no` desc
 		limit #{start}, 10;
 	</select>
-	
+
 	<select id="selectCountTotal" resultType="int">
 		select count(`no`) from `board_article` where `parent`=0;
 	</select>
-	
+
 	<select id="selectArticle" resultMap="selectArticleResultMap">
 		select * from `board_article` as a
 		left join `board_file` as b
-		on a.no = b.parent		
+		on a.no = b.parent
 		where `no`=#{no};
 	</select>
-	
+
 	<!-- 조회(selecct)결과를 상세하게 매핑하기 위한 사용자 정의 Map -->
 	<resultMap id="selectArticleResultMap" type="kr.co.farmstory.vo.ArticleVO">
 		<id column="no" property="no"/>
@@ -67,7 +67,7 @@
 		<result column="uid" property="uid"/>
 		<!-- <result column="regip" property="regip"/> -->
 		<result column="rdate" property="rdate"/>
-		
+
 		<!-- 연관관계 매핑 -->
 		<association property="fileVO" javaType="kr.co.farmstory.vo.FileVO">
 			<id column="fno" property="fno"/>
@@ -77,6 +77,6 @@
 			<result column="download" property="download"/>
 		</association>
 	</resultMap>
-	
-	
+
+
 </mapper>

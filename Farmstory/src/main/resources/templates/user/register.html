@@ -1,6 +1,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <th:block th:replace="~{/_header}"/>
-
+<script th:src="@{/js/register.js}"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
         <main id="user" class="register">
 
             <form th:action="@{/user/register}" method="post">
@@ -63,7 +64,7 @@
                         <th>주소</th>
                         <td>
                             <input type="text" name="zip" placeholder="우편번호 검색" readonly/>
-                            <button type="button"><img th:src="@{/img/chk_post.gif}" alt="우편번호 찾기"/></button>
+                            <button type="button" onclick="zipcode()"><img th:src="@{/img/chk_post.gif}" alt="우편번호 찾기"/></button>
                             <input type="text" name="addr1" placeholder="기본주소 검색" readonly/>
                             <input type="text" name="addr2" placeholder="상세주소 입력"/>
                         </td>

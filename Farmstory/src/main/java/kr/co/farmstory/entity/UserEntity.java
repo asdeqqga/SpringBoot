@@ -16,6 +16,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "board_user")
 public class UserEntity {
+
     @Id
     private String uid;
     private String pass;

@@ -2,10 +2,10 @@
  * 2023/01/19
  */
 window.addEventListener('load', ()=>{
-	document.getElementById('btnCheckUid').addEventListener('click', IdCheck);
-	document.querySelector('input[name=uid]').addEventListener('change', IdChange);
-	document.getElementById('passCheck').addEventListener('change', passwordCheck);
-	document.querySelector('input[name=name]').addEventListener('change', NameCheck);
+	document.getElementById('btnCheckUid').addEventListener('click', IdCheck); // 아이디 중복 체크
+	document.querySelector('input[name=uid]').addEventListener('change', IdChange); // 아이디 변경시 유효성 초기화
+	document.getElementById('passCheck').addEventListener('change', passwordCheck); // 비밀번호 유효성 체크
+	document.querySelector('input[name=name]').addEventListener('change', NameCheck); // 이름 유효성 체크
 });
 
 // 정규표현식
@@ -56,7 +56,7 @@ function passwordCheck() {
 	} else {
 		passOk = false
 		resultPass.innerText = '비멀번호는 숫자,영문,특수문자 포함 8자리 이상 이어야 합니다.'
-		resultPass.style.color = 'pink'
+		resultPass.style.color = 'red'
 	}
 }
 
