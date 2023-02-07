@@ -30,14 +30,16 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class ArticleService {
-
 	@Autowired
 	private ArticleDAO dao;
 	
 	@Autowired
 	private ArticleRepo repo;
-	
-	
+
+	public int selectCountTotal() {
+		return dao.selectCountTotal();
+	}
+
 	@Transactional
 	public int insertArticle(ArticleVO vo) {
 		// 글 등록

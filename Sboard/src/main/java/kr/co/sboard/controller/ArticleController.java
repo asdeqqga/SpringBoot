@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import kr.co.farmstory.vo.SearchCondition;
+import kr.co.sboard.utils.PageHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
@@ -30,26 +32,20 @@ public class ArticleController {
 	private ArticleService service;
 
 	@GetMapping("list")
-	public String list(@AuthenticationPrincipal MyUserDetails myUser, Model model, String pg) {
+	public String list(@AuthenticationPrincipal MyUserDetails myUser, Model model, String pg, SearchCondition sc) {
 		
-		UserEntity user = myUser.getUser();		
-		
-		int currentPage = service.getCurrentPage(pg);
-		int start = service.getLimitStart(currentPage);
-		long total = service.getTotalCount();
-		int lastPage = service.getLastPageNum(total);
-		int pageStartNum = service.getPageStartNum(total, start);
-		int groups[] = service.getPageGroup(currentPage, lastPage);
+		UserEntity user = myUser.getUser();
+
+		int totalCnt = service.selectCountTotal();
+
+
+		PageHandler pageHandler = new PageHandler(totalCnt, sc);
+
 		
 		List<ArticleVO> articles = service.selectArticles(start);
-		
-		model.addAttribute("user", user);
-		model.addAttribute("articles", articles);
-		model.addAttribute("currentPage", currentPage);
-		model.addAttribute("lastPage", lastPage);
-		model.addAttribute("pageStartNum", pageStartNum);
-		model.addAttribute("groups", groups);
-		
+
+		model.addAttribute("ph", pageHandler);
+
 		return "list";
 	}
 	
