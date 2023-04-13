@@ -25,21 +25,24 @@ public class User1Controller {
 	private User1Service service;
 	
 	@ResponseBody
+	@CrossOrigin(origins = "*")
 	@GetMapping("/user1s")
 	public List<User1VO> list1() {
 		List<User1VO> users = service.selectUser1s();
 		return users;
 	}
 	
+	@ResponseBody
+	@CrossOrigin(origins = "*")
 	@GetMapping("/user1")
-	public User1VO list2(String uid) {
+	public User1VO list2(@PathVariable String uid) {
 		return service.selectUser1(uid);
 	}
 	
 	@ResponseBody
 	@CrossOrigin(origins = "*")
 	@GetMapping("/user1/{id}")
-	public User1VO list3(@PathVariable("id") String uid) {
+	public User1VO list3(String uid) {
 		return service.selectUser1(uid);
 	}
 	
@@ -47,10 +50,10 @@ public class User1Controller {
 	@CrossOrigin(origins = "*")
 	@PostMapping("/user1")
 	public Map<String, Integer> register(@RequestBody User1VO vo) {		
-		int result = service.insertUser1(vo);
+		service.insertUser1(vo);
 		
 		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", result);
+		resultMap.put("result", 1);
 		
 		return resultMap;
 	}
@@ -58,10 +61,10 @@ public class User1Controller {
 	@ResponseBody
 	@PutMapping("/user1")
 	public Map<String, Integer> modify(@RequestBody User1VO vo) {
-		int result = service.updateUser1(vo);
+		service.updateUser1(vo);
 		
 		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", result);
+		resultMap.put("result", 1);
 		
 		return resultMap;
 	}
@@ -70,9 +73,9 @@ public class User1Controller {
 	@CrossOrigin(origins = "*")
 	@DeleteMapping("/user1/{id}")
 	public Map<String, Integer> delete(@PathVariable("id") String uid) {
-		int result = service.deleteUser1(uid);
+		service.deleteUser1(uid);
 		Map<String, Integer> resultMap = new HashMap<>();
-		resultMap.put("result", result);
+		resultMap.put("result", 1);
 		
 		return resultMap;
 	}
