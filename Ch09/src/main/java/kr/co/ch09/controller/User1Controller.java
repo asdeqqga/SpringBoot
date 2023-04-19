@@ -59,6 +59,7 @@ public class User1Controller {
 	}
 	
 	@ResponseBody
+	@CrossOrigin(origins = "*")
 	@PutMapping("/user1")
 	public Map<String, Integer> modify(@RequestBody User1VO vo) {
 		service.updateUser1(vo);
