@@ -1,0 +1,48 @@
+2023-04-21 17:53:38.460  INFO 15880 --- [restartedMain] kr.co.todo.TodoApplication               : Starting TodoApplication using Java 17.0.5 on 1004- with PID 15880 (C:\Users\java2\Desktop\workspace\SpringBoot\Todo\bin\main started by java2 in C:\Users\java2\Desktop\workspace\SpringBoot\Todo)
+2023-04-21 17:53:38.460  INFO 15880 --- [restartedMain] kr.co.todo.TodoApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-04-21 17:53:38.619  INFO 15880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-21 17:53:38.619  INFO 15880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-21 17:53:38.620  INFO 15880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-04-21 17:53:38.634  INFO 15880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-21 17:53:38.634  INFO 15880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2023-04-21 17:53:38.703  INFO 15880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-21 17:53:38.739  INFO 15880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-21 17:53:38.746  INFO 15880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-21 17:53:38.748  INFO 15880 --- [restartedMain] kr.co.todo.TodoApplication               : Started TodoApplication in 0.309 seconds (JVM running for 226.863)
+2023-04-21 17:53:38.750  INFO 15880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-21 17:53:47.117  INFO 25988 --- [restartedMain] kr.co.todo.TodoApplication               : Starting TodoApplication using Java 17.0.5 on 1004- with PID 25988 (C:\Users\java2\Desktop\workspace\SpringBoot\Todo\bin\main started by java2 in C:\Users\java2\Desktop\workspace\SpringBoot\Todo)
+2023-04-21 17:53:47.118  INFO 25988 --- [restartedMain] kr.co.todo.TodoApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-04-21 17:53:47.150  INFO 25988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-21 17:53:47.151  INFO 25988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-21 17:53:47.871  INFO 25988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-21 17:53:47.878  INFO 25988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-21 17:53:47.878  INFO 25988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-04-21 17:53:47.925  INFO 25988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-21 17:53:47.925  INFO 25988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2023-04-21 17:53:48.222  INFO 25988 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-21 17:53:48.340  WARN 25988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-04-21 17:53:48.354  WARN 25988 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8383 is already in use
+2023-04-21 17:53:48.358  INFO 25988 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-21 17:53:48.368  INFO 25988 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-21 17:53:48.381 ERROR 25988 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8383 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8383 or configure this application to listen on another port.
+
+2023-04-21 17:53:58.715  INFO 15880 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 17:53:58.716  INFO 15880 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-21 17:53:58.716  INFO 15880 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-21 17:54:08.725  INFO 15880 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-21 17:54:08.731  INFO 15880 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-21 17:54:08.731  INFO 15880 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

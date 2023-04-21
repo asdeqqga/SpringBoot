@@ -1,4 +1,4 @@
-package kr.co.todo.service;
+package kr.co.todo.Service;
 
 import kr.co.todo.dao.MainDAO;
 import kr.co.todo.vo.TodoVO;

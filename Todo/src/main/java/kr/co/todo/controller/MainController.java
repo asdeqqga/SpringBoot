@@ -1,6 +1,6 @@
 package kr.co.todo.controller;
 
-import kr.co.todo.service.MainService;
+import kr.co.todo.Service.*;
 import kr.co.todo.vo.TodoVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -91,6 +91,21 @@ public class MainController {
 
         // 리턴
         return resultMap;
+    }
+    
+    @GetMapping("aaa")
+    public String aaa(String from) {
+    	return "aaa";
+    }
+
+    @GetMapping("bbb")
+    public String bbb() {
+    	return "bbb";
+    }
+    
+    @GetMapping("ccc")
+    public String ccc() {
+    	return "ccc";
     }
 
 }
