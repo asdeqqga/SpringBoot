@@ -30,6 +30,11 @@ public class UserService {
 		
 		dao.insertUser(vo);		
 	}
+	
+	public int countUid(String uid) {
+		return repo.countByUid(uid);
+	}
+	
 	public TermsVO selectTerms() {
 		return dao.selectTerms();
 	}

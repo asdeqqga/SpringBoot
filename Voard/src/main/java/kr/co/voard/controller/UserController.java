@@ -46,6 +46,12 @@ public class UserController {
 		return service.selectTerms();
 	}
 	
+	@GetMapping("/user/checkUid")
+	public int checkUid(String uid) {
+		return service.countUid(uid);
+	}
+	
+	
 	@PostMapping("/user/register")
 	public void register(@RequestBody UserVO vo) {
 		service.insertUser(vo);
