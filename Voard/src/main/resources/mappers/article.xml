@@ -10,10 +10,20 @@
 			`uid`=#{uid},
 			`regip`=#{regip},
 			`rdate`= NOW();	
-	</insert>
-	<select id="selectArticle" resultType="kr.co.voard.vo.ArticleVO">		
-	</select>	
-	<select id="selectArticles"></select>
+	</insert>	
+	<select id="selectArticles" resultType="kr.co.voard.vo.ArticleVO">
+			select a.*, b.`nick` from `board_article` as a
+			join `board_user` as b
+			on a.uid = b.uid 
+			where `parent`=0
+			order by `no` desc
+			limit #{start}, 10;
+	</select>
+	
+	<select id="selectCountTotal" resultType="int">
+		select count(`no`) from `board_article` where `parent`=0 AND `cate`= 'free';
+	</select>
+	
 	<update id="updateArticle"></update>
 	<delete id="deleteArticle"></delete>
 </mapper>
